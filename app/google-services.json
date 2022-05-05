@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474091145268",
+    "project_id": "interface-f1749",
+    "storage_bucket": "interface-f1749.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474091145268:android:98e251799de462bbda6261",
+        "android_client_info": {
+          "package_name": "com.example.aninterface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474091145268-m6cliteng8ouc8lphk98bio7stkkg0vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCol2Xne11dpVYEAVuVInmw4am7BugSSP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474091145268-m6cliteng8ouc8lphk98bio7stkkg0vb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

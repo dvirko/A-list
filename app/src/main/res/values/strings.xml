@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">#InterFace</string>
+
+    <string name="MainActivity">MainActivity</string>
+    <string name="List">list</string>
+    <string name="Update">Update</string>
+    <string name="חדש">חדש</string>
+    <string name="הוספה">הוספה</string>
+    <string name="שם">שם</string>
+    <string name="טלפון">טלפון</string>
+    <string name="name">name</string>
+    <string name="last">last</string>
+    <string name="חיפוש">חיפוש</string>
+    <string name="name_family">שם ומשפחה</string>
+    <string name="made_by_n_dvir_kopolovich">Made by \n Dvir kopolovich</string>
+    <string name="accept">אישור</string>
+    <string name="switch1">הסתר כפתור הוספה בצד שם תלמיד</string>
+    <string name="switch2">החלף רקע</string>
+    <string name="switch3">בטל הודעות</string>
+    <string name="todo">TODO</string>
+    <string name="no_data">אין נתונים</string>
+    <string name="name_and_fameliy">שם ומשפחה</string>
+    <string name="remove">מחק</string>
+    <string name="late">איחורים</string>
+    <string name="update">עדכן</string>
+    <string name="id">תעודת זהות : </string>
+    <string name="phone_home">טלפון בית</string>
+    <string name="name_father">שם האב</string>
+    <string name="name_mother">שם האם</string>
+    <string name="remember">האם להפסיק להראות זאת ?</string>
+    <string-array name="status">
+        <item>נשואים</item>
+        <item>גרושים</item>
+        <item>אחר</item>
+    </string-array>
+    <string name="title_activity_home">Home</string>
+    <string name="appname">חדוותא</string>
+    <string name="late_list">רשימת איחורים</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aninterface">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="רשימה"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InterFace">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:gravity="center"
+            android:label="תפריט"/>
+        <activity
+            android:name=".Late.Late_List"
+            android:gravity="center"
+            android:label="רשימה" />
+        <activity
+            android:name=".Late.Add"
+            android:gravity="center"
+            android:label="הוספה"
+            android:parentActivityName=".Student_List.Student_List" />
+        <activity
+            android:name=".Student_List.Student_List"
+            android:gravity="center"
+            android:label="רשימת תלמידים" />
+        <activity
+            android:name=".Late.Update"
+            android:gravity="center"
+            android:label="עידכון"
+            android:parentActivityName=".Late.Late_List" />
+        <activity
+            android:name=".Late.Option"
+            android:gravity="center"
+            android:label="הגדרות"
+            android:parentActivityName=".Late.Late_List" />
+    </application>
+
+</manifest>
